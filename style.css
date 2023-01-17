@@ -1,4 +1,7 @@
 body {
-    margin: 0 auto;
-
+    margin: 0;
+    text-align: center;
+}
+header {
+    padding: 10px 0;
 }
