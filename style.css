@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     padding: 10px 0;
@@ -19,4 +20,11 @@ fieldset {
     max-height: 50px;
     max-width: 50px;
     padding: 5px 10px;
+}
+footer {
+    /*display: inline-block;*/
+}
+footer > p {
+    margin: 0;
+    padding-top: 50px;
 }
