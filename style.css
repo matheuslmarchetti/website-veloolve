@@ -14,10 +14,10 @@ fieldset {
     width: 60vw;
     margin: 0 auto;
 }
-fieldset > div > a {
-    display: block;
-    margin: auto;
-    text-align: center;
+fieldset > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icon-images {
     height: auto;
@@ -25,8 +25,6 @@ fieldset > div > a {
     max-height: 25px;
     max-width: 25px;
     padding: 30px 10px;
-    display: block;
-    margin: auto;
 }
 footer > p {
     margin: 0;
