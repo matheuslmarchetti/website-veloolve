@@ -28,4 +28,5 @@ fieldset > div {
 footer > p {
     margin: 0;
     padding-top: 50px;
+    background-color: black;
 }
