@@ -17,9 +17,10 @@ fieldset {
 .icon-images {
     height: auto;
     width: auto;
-    max-height: 50px;
-    max-width: 50px;
-    padding: 5px 10px;
+    max-height: 25px;
+    max-width: 25px;
+    padding: 30px 10px;
+    vertical-align: middle;
 }
 footer > p {
     margin: 0;
