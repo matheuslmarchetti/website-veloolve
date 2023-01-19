@@ -2,13 +2,14 @@ body {
     margin: 0 auto ;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     /*background: linear-gradient(180deg, rgb(0, 0, 0) 15%, rgb(255, 255, 255)95%);*/
-    background: radial-gradient(rgb(179, 3, 3)10%, rgb(0, 0, 0)90%);
+    background: radial-gradient(rgb(214, 0, 0)10%, rgb(0, 0, 0)99%);
 }
 header {
-    padding: 10px 0;
+    padding: 5px 0;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 header > img{
     border-radius: 50%;
@@ -27,7 +28,7 @@ fieldset > div {
     height: 100vh;
     max-height: 25px;
     max-width: 25px;
-    padding: 30px 10px;
+    padding: 27px 10px;
 }
 a {
     color: rgb(255, 255, 255);
@@ -36,6 +37,7 @@ a {
 a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 footer > p {
     margin: 0;
@@ -45,4 +47,5 @@ footer > p {
 }
 footer > p > a:hover {
     color: rgb(165, 0, 0);
+    text-shadow: none;
 }
