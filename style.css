@@ -5,3 +5,7 @@ body {
 header {
     padding: 10px 0;
 }
+fieldset {
+    border: none;
+    width: 60vw;
+}
