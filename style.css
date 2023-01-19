@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto ;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -20,8 +20,7 @@ fieldset > div {
     justify-content: center;
 }
 .icon-images {
-    height: auto;
-    width: auto;
+    height: 100vh;
     max-height: 25px;
     max-width: 25px;
     padding: 30px 10px;
