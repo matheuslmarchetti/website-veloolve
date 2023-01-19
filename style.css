@@ -8,4 +8,5 @@ header {
 fieldset {
     border: none;
     width: 60vw;
+    margin: auto;
 }
