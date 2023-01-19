@@ -12,7 +12,12 @@ header > img{
 fieldset {
     border: none;
     width: 60vw;
+    margin: 0 auto;
+}
+fieldset > div > a {
+    display: block;
     margin: auto;
+    text-align: center;
 }
 .icon-images {
     height: auto;
@@ -20,7 +25,8 @@ fieldset {
     max-height: 25px;
     max-width: 25px;
     padding: 30px 10px;
-    vertical-align: middle;
+    display: block;
+    margin: auto;
 }
 footer > p {
     margin: 0;
